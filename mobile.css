@@ -13,6 +13,26 @@
         max-width: 550px;
         height: auto;
         .picture__container {
+          .picture_1 {
+            width: 74%;
+          }
+          .picture_2 {
+            width: 74%;
+          }
+          .picture_3 {
+            width: 74%;
+          }
+
+          .picture_4 {
+            width: 74%;
+          }
+
+          .picture_5 {
+            width: 74%;
+          }
+          .picture_6 {
+            width: 74%;
+          }
           .picture__name {
             font-size: 20px;
           }
