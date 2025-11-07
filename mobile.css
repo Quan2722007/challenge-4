@@ -1,0 +1,51 @@
+@media only screen and (max-width: 720px) {
+  .section {
+    .container {
+      padding: 50px 0 70px 0;
+      height: auto;
+      .inner__box {
+        .inner__title {
+          font-size: 36px;
+        }
+      }
+      .box__picture {
+        grid-template-columns: 1fr;
+        max-width: 550px;
+        height: auto;
+        .picture__container {
+          .picture__name {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+  .overlay {
+    .container {
+      grid-template-columns: 1fr;
+      gap: 0;
+      max-width: 500px;
+      width: 95%;
+      height: auto;
+      padding: 10px 0;
+      .picture_1 {
+        display: none;
+      }
+      .picture_2 {
+        display: none;
+      }
+      .picture_3 {
+        display: none;
+      }
+      .picture_4 {
+        display: none;
+      }
+      .picture_5 {
+        display: none;
+      }
+      .picture_6 {
+        display: none;
+      }
+    }
+  }
+}

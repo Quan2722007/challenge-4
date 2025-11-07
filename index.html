@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gelasio:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&family=Sansita+Swashed:wght@300&family=Sriracha&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="mai.css" />
+    <link rel="stylesheet" href="tablet.css" />
+    <link rel="stylesheet" href="mobile.css" />
+  </head>
+  <body>
+    <div>
+      <section class="section">
+        <div class="container">
+          <div class="inner__box">
+            <h1 class="inner__title">Painting Exhibition</h1>
+          </div>
+          <div class="box__picture">
+            <div class="picture__container">
+              <button class="picture_1" onclick="openPicture_1()"></button>
+              <div class="picture__name">Mona Lisa</div>
+            </div>
+            <div class="picture__container">
+              <button class="picture_2" onclick="openPicture_2()"></button>
+              <div class="picture__name">The Scream</div>
+            </div>
+            <div class="picture__container">
+              <button class="picture_3" onclick="openPicture_3()"></button>
+              <div class="picture__name">The Starry Night</div>
+            </div>
+            <div class="picture__container">
+              <button class="picture_4" onclick="openPicture_4()"></button>
+              <div class="picture__name">Girl With a Pearl Earring</div>
+            </div>
+            <div class="picture__container">
+              <button class="picture_5" onclick="openPicture_5()"></button>
+              <div class="picture__name">Whistler’s Mother</div>
+            </div>
+            <div class="picture__container">
+              <button class="picture_6" onclick="openPicture_6()"></button>
+              <div class="picture__name">Las Meninas</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="overlay" id="overlay1">
+        <div class="container">
+          <img src="picutre/Mona-Lisa.jpg" class="picture_1" />
+          <div class="picture__information">
+            <button class="close__box" onclick="closePicture_1()">X</button>
+            <div class="picture__name">Mona Lisa</div>
+            <ul class="content">
+              <li>
+                Được họa sĩ Leonardo da Vinci vẽ vào đầu thế kỷ 16, trong thời
+                kỳ Phục Hưng.
+              </li>
+              <li>
+                Mô tả một người phụ nữ — nhiều khả năng là Lisa Gherardini, vợ
+                thương gia Francesco del Giocondo, vì vậy bức tranh còn có tên
+                “La Gioconda”.
+              </li>
+              <li>
+                Kỹ thuật sử dụng nổi bật là sfumato, tạo hiệu ứng mờ mềm giữa
+                các màu sắc và đường nét.
+              </li>
+              <li>
+                Nụ cười và ánh mắt của nhân vật chính mang tính biểu tượng: vừa
+                gợi cảm giác hài lòng nội tâm, vừa chứa đựng sự bí ẩn và chiều
+                sâu tâm hồn.
+              </li>
+              <li>
+                Giá trị của bức tranh vượt xa yếu tố vật chất — được xem là “vô
+                giá” và là biểu tượng toàn cầu của nghệ thuật phương Tây.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="overlay" id="overlay2">
+        <div class="container">
+          <img src="picutre/The-Scream.jpg" class="picture_2" />
+          <div class="picture__information">
+            <button class="close__box" onclick="closePicture_2()">X</button>
+            <div class="picture__name">The Scream</div>
+            <ul class="content">
+              <li>
+                Edvard Munch (1863-1944) là họa sĩ Na Uy thuộc trường phái Biểu hiện, thường khai thác chủ đề về nỗi sợ, cái chết và bất ổn tâm lý.
+              </li>
+              <li>
+                Bức tranh The Scream (1893) nằm trong loạt tác phẩm The Frieze of Life, và trở thành biểu tượng của nỗi kinh hoàng và sầu muộn.
+              </li>
+              <li>
+                Một trong những bí ẩn của tranh là bầu trời đỏ-vàng phía sau nhân vật: trước đây được cho là do bụi từ núi lửa Krakatoa phun trào năm 1883, nhưng nghiên cứu sau này cho rằng là do mây xà cừ (một hiện tượng hiếm của tầng bình lưu) gây ra.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="overlay" id="overlay3">
+        <div class="container">
+          <img src="picutre/The-Starry-Night.jpg" class="picture_3" />
+          <div class="picture__information">
+            <button class="close__box" onclick="closePicture_3()">X</button>
+            <div class="picture__name">The Starry Night</div>
+            <ul class="content">
+              <li>
+                Bức tranh được sáng tác năm 1889 khi Van Gogh đang điều trị tại bệnh viện tâm thần ở Saint-Rémy-de-Provence, Pháp.
+              </li>
+              <li>
+                Hình ảnh nổi bật là bầu trời đêm với những vòng xoáy màu xanh-vàng và những ngôi sao sáng, thể hiện sự kết hợp giữa thực tế và tưởng tượng của họa sĩ.
+              <li>
+                Biểu tượng: bầu trời sao tượng trưng cho hy vọng và kết nối vũ trụ; ngôi làng và cây bách đại diện cho sự bình yên và liên kết giữa đời sống và cái chết.
+              </li>
+              <li>
+                Tác phẩm vượt ra ngoài hội họa, trở thành biểu tượng văn hóa hiện đại và nguồn cảm hứng cho nhiều lĩnh vực nghệ thuật khác.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="overlay" id="overlay4">
+        <div class="container">
+          <img src="picutre/Girl-With-a-Pearl-Earring.jpg" class="picture_4" />
+          <div class="picture__information">
+            <button class="close__box" onclick="closePicture_4()">X</button>
+            <div class="picture__name">Girl With a Pearl Earring</div>
+            <ul class="content">
+              <li>
+               Bức tranh được vẽ khoảng năm 1665 bởi họa sĩ Johannes Vermeer, người Hà Lan.
+              </li>
+              <li>
+                Tác phẩm mô tả một cô gái trẻ nhìn nghiêng, nền tối, ánh sáng tinh tế, và nổi bật là chiếc khuyên tai ngọc trai lớn.
+              </li>
+              <li>
+                Những bí ẩn xung quanh gồm: người mẫu không rõ danh tính, Vermeer thay đổi nền từ xanh lá sang đen khi sáng tác, và kỹ thuật sử dụng chất màu đắt tiền (như lazurite) cho khăn turban và trang phục.
+              </li>
+              <li>
+                Tác phẩm hiện vẫn được xem là một trong những bức chân dung nổi tiếng nhất thế giới, và cái tên “Mona Lisa của Bắc Âu” phản ánh vị thế đặc biệt của nó trong lịch sử hội họa.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="overlay" id="overlay5">
+        <div class="container">
+          <img src="picutre/snapedit_1762452091371.jpeg" class="picture_5" />
+          <div class="picture__information">
+            <button class="close__box" onclick="closePicture_5()">X</button>
+            <div class="picture__name">Whistler’s Mother</div>
+            <ul class="content">
+              <li>
+                Tác phẩm được trưng bày lần đầu tại Australia, do Musée d’Orsay (Paris) cho NGV mượn.
+              </li>
+              <li>
+                Bức tranh miêu tả mẹ của Whistler trong bố cục tông xám-đen, được công nhận là một trong những tác phẩm nghệ thuật Mỹ hàng đầu ngoài Hoa Kỳ.
+              </li>
+              <li>
+                Buổi triển lãm được tổ chức từ 25 Tháng 3 đến 19 Tháng 6 năm 2016.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="overlay" id="overlay6">
+        <div class="container">
+          <img src="picutre/Las-Meninas.jpg" class="picture_6" />
+          <div class="picture__information">
+            <button class="close__box" onclick="closePicture_6()">X</button>
+            <div class="picture__name">Las Meninas</div>
+            <ul class="content">
+              <li>
+                Bức tranh được vẽ năm 1656, là một trong những kiệt tác lớn của nghệ thuật phương Tây.
+              </li>
+              <li>
+                Nó mô tả cuộc sống ở triều đình vua Philip IV of Spain – trung tâm là cô công chúa Infanta Margarita Theresa of Spain, với họa sĩ Velázquez xuất hiện trong tranh.
+              </li>
+              <li>
+                Bức tranh nổi bật vì cách Velázquez đặt người xem vào vai trò “đối thoại” với tranh — người xem như đang được nhìn lại hoặc tham gia vào cảnh vẽ.
+              </li>
+              <li>
+                Tác phẩm có ảnh hưởng sâu rộng tới các họa sĩ sau này như Pablo Picasso và Salvador Dalí.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="overlay" id="overlay3">
+        <div class="container">
+          <img src="picutre/The-Scream.jpg" class="picture_2" />
+          <div class="picture__information">
+            <button class="close__box" onclick="closePicture_2()">X</button>
+            <div class="picture__name">Mona Lisa</div>
+            <ul class="content">
+              <li>
+                Edvard Munch (1863-1944) là họa sĩ Na Uy thuộc trường phái Biểu hiện, thường khai thác chủ đề về nỗi sợ, cái chết và bất ổn tâm lý.
+              </li>
+              <li>
+                Bức tranh The Scream (1893) nằm trong loạt tác phẩm The Frieze of Life, và trở thành biểu tượng của nỗi kinh hoàng và sầu muộn.
+              </li>
+              <li>
+                Một trong những bí ẩn của tranh là bầu trời đỏ-vàng phía sau nhân vật: trước đây được cho là do bụi từ núi lửa Krakatoa phun trào năm 1883, nhưng nghiên cứu sau này cho rằng là do mây xà cừ (một hiện tượng hiếm của tầng bình lưu) gây ra.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function openPicture_1() {
+        document.getElementById("overlay1").style.display = "flex";
+      }
+      function closePicture_1() {
+        document.getElementById("overlay1").style.display = "none";
+      }
+       function openPicture_2() {
+        document.getElementById("overlay2").style.display = "flex";
+      }
+      function closePicture_2() {
+        document.getElementById("overlay2").style.display = "none";
+      }
+       function openPicture_3() {
+        document.getElementById("overlay3").style.display = "flex";
+      }
+      function closePicture_3() {
+        document.getElementById("overlay3").style.display = "none";
+      }
+       function openPicture_4() {
+        document.getElementById("overlay4").style.display = "flex";
+      }
+      function closePicture_4() {
+        document.getElementById("overlay4").style.display = "none";
+      }
+       function openPicture_5() {
+        document.getElementById("overlay5").style.display = "flex";
+      }
+      function closePicture_5() {
+        document.getElementById("overlay5").style.display = "none";
+      }
+       function openPicture_6() {
+        document.getElementById("overlay6").style.display = "flex";
+      }
+      function closePicture_6() {
+        document.getElementById("overlay6").style.display = "none";
+      }
+
+    </script>
+  </body>
+</html>

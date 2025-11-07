@@ -1,0 +1,26 @@
+@media only screen and (max-width: 1080px) {
+  .section {
+    .container {
+      padding: 50px 0 100px 0;
+      height: auto;
+      .box__picture {
+        grid-template-columns: 1fr 1fr;
+        max-width: 850px;
+        height: auto;
+      }
+    }
+  }
+  .overlay {
+    .container {
+      max-width: 800px;
+      width: 95%;
+      .picture_1 {
+        height: 350px;
+      }
+      .picture_6 {
+        width: 70%;
+        height: 300px;
+      }
+    }
+  }
+}
